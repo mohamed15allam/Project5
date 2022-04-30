@@ -1,0 +1,183 @@
+
+:root {
+    --main-color  : ;
+    --socond-color: ;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* General */
+.logo { font-weight: 500 !important;}
+.text-warning {  color: #ede861 !important;}
+.text-muted { color: #bcbcbc !important;}
+.text-success { color: #59ab6e !important;}
+.text-dark { color: #212934 !important;}
+.text-light { color: #cfd6e1 !important;}
+.bg-dark { background-color: #212934 !important;}
+.bg-light { background-color: #e9eef5 !important;}
+.bg-black { background-color: #1d242d !important;}
+.bg-success { background-color: #59ab6e !important;}
+.btn-success {
+  background-color: #59ab6e !important;
+  border-color: #56ae6c !important;
+}
+ a:hover {color: #15a539; }
+
+ p {
+    font-size: 18px !important;
+    font-weight: 300 !important;
+ }
+
+.h1 {
+    font-size: 48px !important;
+    font-weight: 200 !important;
+  }
+  .h2 {
+    font-size: 30px !important;
+    font-weight: 300 !important;
+  }
+  .h3 {
+    font-size: 22px !important;
+    font-weight: 300;
+  }
+
+
+#nav-top{min-height: 40px;}
+#nav-top{font-size: 13px;}
+
+/* Header */
+
+.navbar-brand {
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+}
+a.nav-item  {
+    transition: 0.3s;
+}
+.nav-item:hover a{color: #1aac3e !important; }
+.nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* ****** */
+/* Start Model */
+/* ****** */
+
+.carsol-main {
+    background-color: #eeeeee;
+}
+
+.carousel-control-next{
+    font-size: 50px;
+    font-weight: bold;
+}
+.carousel-control-prev {
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+#carsilslide3{
+    width: 30px;
+    height: 4px;
+    background-color: #57bd70;
+}
+@media (max-width:789px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+/* *********** */
+/* Start Gatogrees */
+.card-gatogres {
+    border: none;
+}
+/* ********** */
+/* Start Featured Product  */
+
+/* End Featured Product  */
+/* start Footer */
+#tempaltemo_footer h3{
+    padding: 20px 0;
+    color: #cad4d4;
+    border-bottom: 1px solid #545454;
+    font-weight: 300;
+}
+#tempaltemo_footer a{
+    color: #dae6e6;
+    font-size: 18px;
+    font-weight: 300;
+}
+#tempaltemo_footer a:hover {color: #15a539; }
+#tempaltemo_footer .border-light { border-color: #2d343f !important;}
+#tempaltemo_footer  ul.footer-icon li {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+#tempaltemo_footer  ul.footer-icon li a i {align-items: center;}
+#tempaltemo_footer button[type=submit] {
+    outline-style: none !important;
+}
+/* End Footer */
+
+/* ***** */
+/* About Serveses */
+/* ***** */
+.serveses-icon-wap{transition: 0.4s;}
+.serveses-icon-wap:hover, .serveses-icon-wap:hover i {color: white;}
+.serveses-icon-wap:hover {background-color: #56ae6c;}
+
+/* **** */
+/* Brand */
+.brand-img {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.brand-img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+}
+/* &**** */
+/* Contact */
+.contact label {
+    font-size: 1.3rem;
+    color: #707379;
+    font-weight: 300;
+}
+/* ****** */
+/* Start Shop */
+
+.templatemo-accordion .ulcolaps a {
+    font-size: 22px;
+    color: #2d343f !important;
+    font-weight: 300;
+}
+.shop-top-menu a:hover { color: #69bb7e !important;}
+.product-wap {box-shadow: 0px 5px 10px 1px rgba(0 ,0 ,0, 0.10);}
+.card.product-wap .card .product-overlay {
+    background-color: rgba(0 ,0 ,0, 0.40);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.card.product-wap:hover .card .product-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* End Shop */
+
+

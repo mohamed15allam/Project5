@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ar" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template BootStrab</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Link Css And BootStrab -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/them.css">
+    <!-- link jqury -->
+    
+</head>
+<body>
+
+   <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark d-none d-lg-block"  id="nav-top">
+      <div class="container text-light">
+         <div class="w-100 d-flex justify-content-between">
+            <div>
+                <i class="fa-solid fa-envelope mx-2"></i>
+                <a class="navbar-sm-brand text-light  text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                <i class="fa-solid fa-phone-flip mx-2" ></i>
+                <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340"> 010-020-0340</a>
+            </div>
+            <div>
+               <a class="text-light" href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook-f  me-2"  ></i></a>
+               <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram-square me-2"></i></a>
+               <a class="text-light" href="https://twitter.com/i/flow/login"target="_blank"><i class="fa-brands fa-twitter me-2"></i></a>
+               <a class="text-light" href="https://www.linkedin.com/login/ar" target="_blank"><i class="fa-brands fa-linkedin "></i></a>
+            </div>
+         </div>
+       </div>
+    </nav>
+    <!-- Close Nav Top -->
+    
+    <!-- Start Header -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+              <a class="navbar-brand text-success" href="index.html">Zar</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto  mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link mx-md-5 text-dark "  aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-md-5  text-dark "  href="about.html" target="blank">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-md-5  text-dark "  href="shop.html" target="blank">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-md-5  text-dark "   href="contact.html" target="blank">Content</a>
+                  </li>
+                </ul>
+                <div class="navbar align-self-center d-flex   " id="navbarSupportedContent">
+                      <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                      </div>
+                    <a class="nav-icon d-none d-lg-inline me-3" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark fs-5 "></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none me-3" href="#" id="navbarSupportedContent">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark fs-5"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none me-3" href="#" >
+                        <i class="fa fa-fw fa-user text-dark  fs-5"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                    </a>
+                </div>
+              </div>
+        </div>
+      </nav>
+    <!-- End Header -->
+
+    
+      <!-- Slider -->
+     <div id="carsolSlider" class="carousel slide carsol-main" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button id="carsilslide3" type="button" data-bs-target="#carsolSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button id="carsilslide3" type="button" data-bs-target="#carsolSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button id="carsilslide3" type="button" data-bs-target="#carsolSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner position-relative">
+          <div class="carousel-item active">
+             <div class="container">
+                 <div class="row p-5 ">
+                     <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                          <img src="assets/ubload/img/banner_img_01.jpg" class="d-block w-100" alt="...">
+                     </div>
+                     <div class="col-lg-6 col-md-4 d-flex align-items-center">
+                         <div class="text-align-left align-self-center">
+                            <h1 class="fs-2 fw-light  text-success"> <b>Zay</b> eCommmerce</h1>
+                            <h3 class="h3 ">Tiny and Perfect eCommerce Template</h3>
+                            <p>
+                                Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). This
+                                <a rel="sponsored" class="text-success" href="#">TemplateMo</a>website. Image credits go to
+                                <a rel="sponsored" class="text-success" href="#">Freepik Stories</a>,
+                                <a rel="sponsord"  class="text-success" href="#">Unsplash</a> and 
+                                <a rel="sponsord"  class="text-success" href="#">Icons 8.</a>
+                            </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+          </div>
+          <div class="carousel-item ">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                             <img src="assets/ubload/img/banner_img_02.jpg" class="d-block w-100 " alt="...">
+                        </div>
+                        <div class="col-lg-6 col-md-4 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h3 class="fs-3 fw-light  "> Proident occaecat</h3>
+                                <h1 class="fs-2 fw-normal"  >Aliquip ex ea commodo consequat</h1>
+                                <p class="fw-light">
+                                 You are permitted to use this Zay CSS template for your commercial websites.
+                                  You are <span>not permitted</span>  to re-distribute the 
+                                 template ZIP file in any kind of template collection websites.
+                                </p>
+                               </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          <div class="carousel-item ">
+                    <div class="container">
+                        <div class="row p-5">
+                            <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                                 <img src="assets/ubload/img/banner_img_03.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-lg-6 col-md-4 d-flex align-items-center">
+                                <div class="text-align-left align-self-center">
+                                   <h3 class="fs-3 fw-light  "> Proident occaecat</h3>
+                                   <h1 class="fs-2 fw-normal"  >Aliquip ex ea commodo consequat</h1>
+                                   <p class="fw-light">
+                                    You are permitted to use this Zay CSS template for your commercial websites.
+                                     You are <span>not permitted</span>  to re-distribute the 
+                                    template ZIP file in any kind of template collection websites.
+                                   </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+          </div>
+       </div>
+        <button class="carousel-control-prev text-success ps-3" type="button" data-bs-target="#carsolSlider" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-control-next text-success pe-3" type="button" data-bs-target="#carsolSlider" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+      
+
+
+<!-- Start Gatogres -->
+     <div class="container py-5 ">
+        <div class="row text-center pt-3 mb-5">
+            <div class="col-lg-6 text-center m-auto">
+              <h1 class="h1">Categories of The Month</h1>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div> 
+       <div class="row " >
+          <div class="col-12 col-md-4  mt-3">
+            <div class="card card-gatogres " >
+              <img src="assets/ubload/img/category_img_01.jpg" class=" rounded-circle m-auto img-fluid border"style="width: 90%;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Watches</h5>
+                <p class="text-center "><a href="#" class="btn btn-success mt-1">Go Shop</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4  mt-3">
+            <div class="card  card-gatogres" >
+              <img src="assets/ubload/img/category_img_02.jpg" class=" rounded-circle m-auto img-fluid border" style="width: 90%;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Shoes</h5>
+                <p class="text-center "><a href="#" class="btn btn-success mt-1">Go Shop</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4  mt-3">
+            <div class="card card-gatogres" >
+              <img src="assets/ubload/img/category_img_03.jpg" class=" rounded-circle  m-auto img-fluid border"  style="width: 90%;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Accessories</h5>
+                <p class="text-center "><a href="#" class="btn btn-success mt-1">Go Shop</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+     </div>
+<!-- End Gatogress -->
+<!-- *****###*** -->
+<!-- Start Featured Product -->
+     <section class="bg-light pt-5 pb-5 ">
+       <div class="container">
+         <div class="row text-center py-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Featured Product</h1>
+                <p>Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                   Excepteur sint occaecat cupidatat non proident.
+                </p>
+            </div>
+         </div>
+         <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                  <div class="card pb-3 h-100" >
+                    <a href="shop.html" target="blank"><img src="assets/ubload/img/feature_prod_01.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <ul class="list-unstyled d-flex justify-content-between">
+                          <li>
+                            <i class="  fa-solid fa-star text-warning "></i>
+                            <i class="  fa-solid fa-star text-warning "></i>
+                            <i class="  fa-solid fa-star text-warning "></i>
+                            <i class="  fa-solid fa-star text-warning "></i>
+                          </li>
+                          <li class="text-muted text-right">$240.00</li>
+                        </ul>
+                        <a href="shop.html" target="blank" class="text-decoration-none text-dark"><h2 class=" h2 card-title">Gym Weight</h2></a>
+                        <p class="card-text">Lorem ipsum dolor sit amet, 
+                          consectetur adipisicing elit. Sunt in culpa qui officia deserunt.</p>
+                        <span class="text-muted ">Reviews (24)</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                  <div class="card pb-3 h-100" >
+                    <a href="shop.html" target="blank"><img src="assets/ubload/img/feature_prod_02.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <ul class="list-unstyled d-flex justify-content-between">
+                          <li>
+                            <i class="  fa-solid fa-star text-warning "></i>
+                            <i class="  fa-solid fa-star text-warning "></i>
+                            <i class="  fa-solid fa-star text-warning "></i>
+                            <i class="  fa-solid fa-star text-warning "></i>
+                          </li>
+                          <li class="text-muted text-right">$240.00</li>
+                        </ul>
+                        <a href="shop.html "target="blank" class="text-decoration-none text-dark"><h2 class=" h2 card-title">Cloud Nike Shoest</h2></a>
+                        <p class="card-text">Aenean gravida dignissim finibus. Nullam ipsum diam, 
+                          posuere vitae pharetra sed, commodo ullamcorper.</p>
+                        <span class="text-muted ">Reviews (24)</span>
+                    </div>
+                  </div>
+                </div>
+
+                 <div class="col-12 col-md-4 mb-4">
+                  <div class="card pb-3 h-100" >
+                   <a href="shop.html" target="blank" class="linkh2">  <img src="assets/ubload/img/feature_prod_03.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <ul class="list-unstyled d-flex justify-content-between">
+                          <li>
+                            <i class="  fa-solid fa-star text-warning "></i>
+                            <i class="  fa-solid fa-star text-warning "></i>
+                            <i class="  fa-solid fa-star  "></i>
+                            <i class="  fa-solid fa-star "></i>
+                          </li>
+                          <li class="text-muted text-right">$240.00</li>
+                        </ul>
+                        <a href="shop.html" target="blank" class="text-decoration-none text-dark" ><h2 class=" h2 card-title">Summer Addides Shoes</h2></a>
+                        <p class="card-text">Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam,
+                           et scelerisque ipsum lobortis nec.</p>
+                        <span class="text-muted ">Reviews (24)</span>
+                    </div>
+                  </div>
+                </div> 
+         </div>
+       </div>
+     </section>
+     <!-- End Section -->
+     <!-- Start Footer -->
+     <footer class="bg-dark text-left pt-4 " id="tempaltemo_footer">
+       <div class="container">
+         <div class="row  pb-2 " style="border-bottom: 1px solid #545454;">
+            <div class="col-12 col-md-4">
+              <h3 class="fw-bold  text-success ">Zay Shop</h3>
+              <ul class="list-unstyled text-light mt-4 ">
+                <li class="mb-2">
+                  <i class="fa-solid fa-location-dot mx-2"></i>
+                  123 Consectetur at ligula 10660
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-phone-flip mx-2"></i>
+                  <a class="text-decoration-none  " href="tel:010-020-0340">010-020-0340</a>
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-envelope mx-2"></i>
+                  <a class="text-decoration-none " href="mailto:info@company.com">info@company.com</a>
+                </li>
+              </ul>
+
+            </div>
+            <div class="col-12 col-md-4 ml-0">
+              <h3 class="mb-3">Products</h3>
+              <ul class="list-unstyled text-light">
+                <li class="mb-2"><a class="text-decoration-none" href="#">Luxury</a></li>
+                <li class="mb-2"><a class="text-decoration-none" href="#">Sport Wear</a></li>
+                <li class="mb-2"><a class="text-decoration-none" href="#">Men's Shoes</a></li>
+                <li class="mb-2"><a class="text-decoration-none" href="#">Women's Shoes</a></li>
+                <li class="mb-2"><a class="text-decoration-none" href="#">Popular Dress</a></li>
+                <li class="mb-2"><a class="text-decoration-none" href="#">Gym Accessories</a></li>
+                <li class="mb-2"><a class="text-decoration-none" href="#">Sport Shoes</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4">
+              <h3 class="mb-3">Further Info</h3>
+              <ul class="list-unstyled text-light">
+                <li class="mb-2"><a class="text-decoration-none" href="#">Home</a></li>
+                <li class="mb-2"><a class="text-decoration-none" href="#">About Us</a></li>
+                <li class="mb-2"><a class="text-decoration-none" href="#">Shop Locations</a></li>
+                <li class="mb-2"><a class="text-decoration-none" href="#">FAQs</a></li>
+                <li class="mb-2"><a class="text-decoration-none" href="#">Contact</a></li>
+               
+              </ul>
+            </div>
+         </div>
+         <!-- **** -->
+         <div class="row   mb-4">
+           <div class="col-md-6 text-light me-auto">
+             <ul class="list-unstyled  footer-icon mt-3 d-flex">
+               <li>
+                <a class="text-decoration-none" target="blank" href="https://www.facebook.com/%D8%AA%D8%AD%D9%81%D9%8A%D9%84T7fel-109778181597643/"><i class="fa-brands fa-facebook-f fs-3"></i></a>
+               </li>
+               <li>
+               <a class="text-decoration-none" target="blank" href="https://twitter.com/?lang=ar"> <i class="fa-brands fa-twitter fs-3 "></i></a>
+               </li>
+               <li>
+                <a class="text-decoration-none" target="blank" href=""><i class="fa-brands fa-instagram fs-3"></i></a>
+               </li>
+               <li">
+                <a class="text-decoration-none" target="blank" href="https://www.linkedin.com/in/mohamed-fathy-1943b122a/"><i class="fa-brands fa-linkedin fs-3"></i></a>
+               </li>
+             </ul>
+           </div>
+           <div class="col-md-6">
+            <label class="sr-only" for="subscribeEmail">Email address</label>
+            <div class="input-group mb-2 mt-4">
+              <input type="text" class="form-control bg-dark border-light text-white  " id="subscribeEmail" placeholder="Email address">
+              <!-- <div class="input-group-text btn-success text-light">Subscribe</div> -->
+              <button type="submit" class="btn btn-success">Subscribe</button>          </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="w-100 bg-black py-4">
+           <div class="container">
+             <div class="row pt-12">
+               <div class="col-12">
+                 <div class="text-left text-light fs-5 fw-light">
+                  Copyright 	&#169; 2021 Company Name 
+                  |Designed by <a href=""> TemplateMo</a>
+                 </div>
+
+               </div>
+             </div>
+           </div>
+      </div>
+
+      
+
+     </footer>
+
+
+
+
+     <!-- End Footer -->
+
+    <!-- Linkes All js -->
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script> 
+    <script src="./assets/js/bootstrap.bundle.min.js"></script> 
+    <script src="./assets/js/bootstrap.bundle.min.js.map"></script> 
+    <script src="./assets/js/Them.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
